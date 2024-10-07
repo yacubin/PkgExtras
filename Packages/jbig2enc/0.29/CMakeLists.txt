@@ -25,7 +25,7 @@ set(jbig2enc_SOURCES
   )
 
 set(jbig2enc_DATAFILES
-  .gitignore
+  # .gitignore
   AUTHORS
   autogen.sh
   ChangeLog
@@ -38,7 +38,7 @@ set(jbig2enc_DATAFILES
   INSTALL
   Makefile.am
   NEWS
-  pdf.py
+  # pdf.py
   README.md
   src/Makefile.am
   vs2008/jbig2/jbig2.vcproj
