@@ -1,4 +1,4 @@
-// RUN wget https://raw.githubusercontent.com/ykbin/PkgExtras/refs/heads/develop/MakeScripts/libhv-static.mjs
+// RUN wget https://raw.githubusercontent.com/ykbin/PkgExtras/refs/heads/develop/MakeRecipes/libhv-static.mjs
 // RUN npm init -y
 // RUN npm install bitmake
 // RUN npx bitmake build --config libhv-static.mjs
