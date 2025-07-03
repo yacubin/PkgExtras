@@ -51,5 +51,11 @@
     "md5": "057f417a329a1a19d1cb87412f1c7ec7",
     "src": "libamivideo/0.1",
     "dst": ""
+  },
+  {
+    "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mongoose/mongoose-2.6.tgz",
+    "md5": "56afae4cfb86e836024df31224db8104",
+    "src": "mongoose/2.6",
+    "dst": ""
   }
 ]
