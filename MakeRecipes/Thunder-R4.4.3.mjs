@@ -1,9 +1,9 @@
 // pip install jsonref
 
-// RUN wget https://raw.githubusercontent.com/ykbin/PkgExtras/refs/heads/develop/MakeRecipes/Thunder-R4.mjs
+// RUN wget https://raw.githubusercontent.com/ykbin/PkgExtras/refs/heads/develop/MakeRecipes/Thunder-R4.4.3.mjs
 // RUN npm init -y
 // RUN npm install bitmake
-// RUN npx bitmake build --config Thunder-R4.mjs
+// RUN npx bitmake build --config Thunder-R4.4.3.mjs
 
 export default {
   "utility:ThunderTools": {
