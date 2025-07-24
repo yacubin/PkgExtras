@@ -20,7 +20,7 @@ source_group(TREE "${CMAKE_CURRENT_SOURCE_DIR}" FILES ${mongoose_HEADERS} ${mong
 
 add_library(libmongoose OBJECT ${mongoose_HEADERS} ${mongoose_SOURCES})
 target_include_directories(libmongoose PUBLIC "$<BUILD_INTERFACE:${mongoose_INCLUDES}>")
-set_target_properties(libmongoose PROPERTIES PUBLIC_HEADER ${mongoose_HEADERS})
+set_target_properties(libmongoose PROPERTIES PUBLIC_HEADER "${mongoose_HEADERS}")
 set_target_properties(libmongoose PROPERTIES POSITION_INDEPENDENT_CODE ON)
 set(_INSTALL_TARGETS libmongoose)
 
