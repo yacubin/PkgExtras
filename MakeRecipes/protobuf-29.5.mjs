@@ -1,4 +1,4 @@
-// RUN wget https://raw.githubusercontent.com/ykbin/PkgExtras/refs/heads/develop/MakeRecipes/protobuf-29.5.mjs
+// RUN wget https://raw.githubusercontent.com/yacubin/PkgExtras/refs/heads/develop/MakeRecipes/protobuf-29.5.mjs
 // RUN npm init -y
 // RUN npm install bitmake
 // RUN npx bitmake build --config protobuf-29.5.mjs
