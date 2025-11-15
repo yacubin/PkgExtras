@@ -20,15 +20,15 @@ endif ()
 
 find_package(PkgConfig)
 if (PKGCONFIG_FOUND)
-  pkg_check_modules(PC_Jansson Jansson)
-  set(Jansson_DEFINITIONS ${PC_LibUSB_CFLAGS_OTHER})
+  pkg_check_modules(PC_JANSSON Jansson)
+  set(Jansson_DEFINITIONS ${PC_JANSSON_CFLAGS_OTHER})
 endif ()
 
 find_path(Jansson_INCLUDE_DIR
   NAMES jansson_config.h jansson.h
   PATHS
-    ${PC_Jansson_INCLUDEDIR}
-    ${PC_Jansson_INCLUDE_DIR}
+    ${PC_JANSSON_INCLUDEDIR}
+    ${PC_JANSSON_INCLUDE_DIR}
   PATH_SUFFIXES
     jansson
   )
@@ -37,8 +37,8 @@ find_library(Jansson_LIBRARY
   NAMES
     jansson
   PATHS
-    ${PC_Jansson_LIBDIR}
-    ${PC_Jansson_LIBRARIES_DIRS}
+    ${PC_JANSSON_LIBDIR}
+    ${PC_JANSSON_LIBRARIES_DIRS}
   )
 
 include(FindPackageHandleStandardArgs)
