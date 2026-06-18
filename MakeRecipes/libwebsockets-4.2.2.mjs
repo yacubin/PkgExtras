@@ -1,7 +1,7 @@
-// RUN wget https://raw.githubusercontent.com/yacubin/PkgExtras/refs/heads/develop/MakeRecipes/libwebsockets-static.mjs
+// RUN wget https://raw.githubusercontent.com/yacubin/PkgExtras/refs/heads/develop/MakeRecipes/libwebsockets-4.2.2.mjs
 // RUN npm init -y
 // RUN npm install bitmake
-// RUN npx bitmake build --config libwebsockets-static.mjs
+// RUN npx bitmake build --config libwebsockets-4.2.2.mjs
 
 export default {
   "bundle:openssl": {
