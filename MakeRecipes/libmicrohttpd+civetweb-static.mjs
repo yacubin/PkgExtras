@@ -5,7 +5,7 @@
 
 export default {
   "bundle:zlib": {
-    sourceUrl: "https://www.zlib.net/zlib-1.3.1.tar.gz",
+    sourceUrl: "https://zlib.net/fossils/zlib-1.3.1.tar.gz",
     action: "configure",
     variables: {
       prefix: "/usr",
